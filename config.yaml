@@ -1,0 +1,52 @@
+---
+  conta_0:
+    nome: "CONTA NOME 1"
+    spg: True
+    now: True
+  conta_1:
+    nome: "CONTA NOME 2"
+    spg: True
+    now: True
+
+
+  # [en_US] Time intervals configuration
+  #
+  # [pt_BR] Configurações de intervalos de tempo
+  #
+  time_intervals:
+    check_for_game: 30
+    # [en_US] Time interval between moviments
+    # Default value (in seconds): 1
+    #
+    # [pt_BR] Intervalo de tempo entre movimentos
+    # Valor padrão (em segundos): 1
+    interval_between_moviments: 1
+  spg_team_members_max: 18
+  spg_scroll_times: 6
+  # [en_US] How confident the bot needs to be to click the buttons (values from 0 to 1. 0 is the minimum value, 1 is the maximum value)
+  #
+  # [pt_BR] O quão confiante o bot precisa estar para clicar nos botões (valores entre 0 e 1. 0 é o valor mínimo, 1 é o valor máximo)
+  #
+  threshold:
+    # [en_US]
+    # Default value: 0.7
+    #
+    # [pt_BR]
+    # Valor padrão: 0.7
+    default: 0.7
+    brown-chest: 0.8
+    chrome: 0.7
+    active_boss: 0.9
+    energy: 0.89
+    start_boss_hunt: 0.8
+    close: 0.8
+
+# [en_US] Option for save logs to a file (logs.txt)
+  # Default value: False
+  # Available options: False or True
+  #
+  # [pt_BR] Opção para salvar os logs em arquivo (logs.txt)
+  # Valor padrão : False
+  # Opções disponíveis: False ou True
+  save_log_to_file: False
+
