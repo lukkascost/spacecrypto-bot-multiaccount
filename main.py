@@ -34,7 +34,7 @@ def main():
     index = 0
     while True:
         account = accounts[index % number_of_accounts]
-        go_to_account(account)
+        if len(accounts) > 1: go_to_account(account)
         if account['space']:
             src.bot_spg.main(account)
         index += 1
