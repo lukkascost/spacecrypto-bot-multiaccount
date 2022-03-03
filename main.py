@@ -18,7 +18,7 @@ def to_set_accounts(accounts):
             "name": c["conta_" + str(i)]['nome'],
             "chrome": k,
             "login": tempo,
-            "spg_login": time.time(),
+            "spg_login": tempo,
             "heroes": [],
             "space": c["conta_" + str(i)]['spg']
         }
